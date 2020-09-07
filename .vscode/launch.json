@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-RefnumberApplication<spanner-google-cloud-samples>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.efx.ews.RefnumberApplication",
+      "projectName": "spanner-google-cloud-samples",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-RefnumberApplication<refnumber-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.efx.ews.RefnumberApplication",
+      "projectName": "refnumber-service",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-FileApplication<refnumber-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.efx.ews.FileApplication",
+      "projectName": "refnumber-service",
+      "args": ""
+    }
+  ]
+}
